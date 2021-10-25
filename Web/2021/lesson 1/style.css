@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 30%;
+    flex-direction: column;
+}
+button{
+    transition: all 1s;
+    padding: 7px;
+    color: rgb(81, 27, 109);
+    border: 3px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+}
+button:hover{
+    transition: all 1s;
+    border: 5px dashed #00FFFF;
+    box-shadow: 0px 0px 10px #00FFFF ;
+    transform: scale(1.5);
+}
+button:active{
+    transition: all 1s;
+    background-color: #00FFFF;
+}
