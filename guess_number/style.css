@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: Lime;
+}
+
+#out {
+    list-style: none;
+}
+
+#form input{
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: Lime;
+}
+
