@@ -24,6 +24,7 @@ function game (input){
   if (!userName){
     userName = input;
     message(input+ ' приветствую тебя. Предлагаю тебе сыграть в игру, я загадаю число от 1 до 100, а тебе нужно будет его отгадать.');
+    out.removeChild(out.children[0]);
     return;
   }
   let n = Number.parseInt(input);
